@@ -7,7 +7,6 @@
 let precioProducto=0;
 let cantidadProducto=0;
 let costoTotal=0;
-let precioUnidad=0;
 let codigo;
 let costo;
 
