@@ -49,7 +49,7 @@ while (ingresoProfesor!=0) {
 }
 
 notaPromedioClase=notaGeneral/contadorAlumno;
-console.log(`cantidad de alumnos = `+contadorAlumno);
-console.log(`nota promedio       = ` +notaPromedioClase);
+console.log(`cantidad de alumnos        = `+contadorAlumno);
+console.log(`nota promedio de la clase  = ` +notaPromedioClase);
 
 
