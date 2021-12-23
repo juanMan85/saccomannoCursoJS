@@ -1,0 +1,17 @@
+ *{
+    margin: 0;
+    padding: 0;
+} 
+
+.header{
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #04293A;
+    color: #EEEEEE;
+    align-items: center;
+   
+}
+
