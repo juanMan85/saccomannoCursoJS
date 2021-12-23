@@ -3,8 +3,16 @@ $(".header").slideUp(3000).delay(200).slideDown(3000)
 
 $(".container-fluid").fadeOut(3000).delay(200).slideDown(2000)
 
+//-----
+//----efecto hover titulo
+$(".header").on("mouseenter", function(){
 
+    $(".header").css("text-decoration","line-through")
+})
+$(".header").on("mouseleave",function(){
 
+    $(".header").css("text-decoration","none")
+})
 
 
 //----efecto hover gorro 1
@@ -38,3 +46,10 @@ $("#gorroTres").on("mouseleave",function(){
 
     $("#gorroTres").css("background-color","white")
 })
+
+
+//---- animacion encadenada
+
+$(".container-fluid").delay(4000).append(`<div class ="divAppend"><h2 id="mensajitoH2">Para ideas mas creativas...mantenga su cerebro calentito</h2></div>`)
+
+$("#mensajitoH2").slideUp().delay(3500).slideDown(2000).css("font-size","30px").css("color","#EBE645")

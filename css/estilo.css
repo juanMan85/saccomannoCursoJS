@@ -13,5 +13,17 @@
     color: #EEEEEE;
     align-items: center;
    
+   
 }
 
+.divAppend{
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    background-color: #04293A;
+    color: #EEEEEE;
+    font-size: 30px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
